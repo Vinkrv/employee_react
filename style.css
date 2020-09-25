@@ -1,0 +1,246 @@
+@import url(./normalize.css);
+
+@media screen and (max-width: 540px) {
+    .popup__content {
+      width: calc(100% - 60px);
+    }
+  }
+
+.page-title {
+    color: rgb(45, 45, 45);
+    font-style: normal;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 608px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.empl-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eaeaea;
+    border: 1px solid #b8b8b8;
+}
+
+.table-name {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 14px;
+    width: 100px;
+}
+
+.table-line {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #b8b8b8;
+    height: 65px;
+    align-items: center;
+}
+
+.line-name {
+    margin-left: 15px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.line-surname {
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.table-icon {
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+
+.line-icons {
+    border: 1px solid #b8b8b8;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    overflow: hidden;
+}
+
+.edit-icon {
+    background-color: rgb(249, 249, 149);
+    height: 30px;
+    width: 30px;
+    margin-right: 0px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.edit-icon:hover {
+    background-color: hsl(36, 90%, 69%);
+}
+
+.delete-icon {
+    background-color: #f99595;
+    height: 30px;
+    width: 30px;
+    margin-left: 0px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.delete-icon:hover {
+    background-color: #fa6d6d;
+}
+
+.popup__create {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+    display: flex;
+}
+
+.popup__edit {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.popup__form {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-title {
+    margin: 0px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #B6BCBF;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+    padding-left: 16px;
+}
+
+.popup__content {
+  width: 530px;
+  min-height: 188px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+
+.popup-ref {
+    margin-top: 16px;
+    margin-left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.4s;
+    color: #347EFF;
+    cursor: pointer;
+}
+
+.popup-ref:hover {
+    text-decoration: underline;
+}
+
+.popup__input {
+    width: 498px;
+    height: 26px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 16px;
+    padding-left: 7px;
+    outline: none;
+    transition: 0.4s;
+}
+
+.popup__input:hover {
+    background-color: #F5F6F7;
+}
+  
+.popup__input:focus {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: #FFF;
+}
+
+.popup__input:last-of-type {
+    margin-bottom: 0;
+    margin-top:16px;
+}
+
+.button {
+    border: 0px;
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    background-color: #347EFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+}
+  
+.popup__button:disabled  {
+    background: none;
+    border: 1px solid rgba(0, 0, 0, .2);
+    color: rgba(0, 0, 0, .2);
+}
+
+.button:hover {
+    background-color: #2F71E5;
+}
+
+.button:active {
+    background-color: #2A65CC;
+}
+
+.table-button {
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 170px;
+}
+
+.popup__button {
+    margin-right: 16px;
+    margin-left: auto;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
