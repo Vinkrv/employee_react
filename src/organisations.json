@@ -1,0 +1,19 @@
+{
+  "organisations": [
+    {
+      "id": 1,
+      "fullName": "Томский государственный университет",
+      "shortName": "“√”"
+    },
+    {
+      "id": 2,
+      "fullName": "ћосковский государственный университет имени ћ.¬.Ћомоносова",
+      "shortName": "ћ√”"
+    },
+    {
+      "id": 3,
+      "fullName": "ќќќ \"Rubius Group\"",
+      "shortName": "Rubius"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "—айнаков",
+      "lastName": "Ќиколай",
+      "middleName": "јлександрович",
+      "organisationId": 1,
+      "email": "mail1@mail.ru"
+    },
+    {
+      "id": 2,
+      "firstName": "ћожаева",
+      "lastName": "√алина",
+      "middleName": "¬асильевна",
+      "displayName": "ћожаева √алина",
+      "organisationId": 1,
+      "email": "mail2@mail.ru"
+    },
+    {
+      "id": 3,
+      "firstName": "«ам€тин",
+      "lastName": "јлександр",
+      "middleName": "¬ладимирович",
+      "organisationId": 1,
+      "email": "mail3@mail.ru",
+      "password": "123"
+    },
+    {
+      "id": 4,
+      "firstName": "√алажинский",
+      "lastName": "Ёдуард",
+      "middleName": "¬ладимирович",
+      "organisationId": 1,
+      "email": "mail4@mail.ru"
+    },
+    {
+      "id": 5,
+      "firstName": "Ёмер",
+      "lastName": "ёли€",
+      "middleName": "јнтоновна",
+      "organisationId": 2,
+      "email": "mail5@mail.ru"
+    },
+    {
+      "id": 6,
+      "firstName": "Ќиколаев",
+      "lastName": "¬иктор",
+      "middleName": "¬ладимирович",
+      "organisationId": 2,
+      "email": "mail6@mail.ru"
+    },
+    {
+      "id": 7,
+      "firstName": "‘ещенко",
+      "lastName": "јртЄм",
+      "middleName": "¬икторович",
+      "organisationId": 2,
+      "email": "mail7@mail.ru"
+    },
+    {
+      "id": 8,
+      "firstName": "ћарухина",
+      "lastName": "ќльга",
+      "middleName": "¬ладимировна",
+      "organisationId": 3,
+      "email": "mail8@mail.ru"
+    }
+  ]
+}
